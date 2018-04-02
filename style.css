@@ -1,0 +1,70 @@
+
+.center {
+  text-align: center;
+  color: black;
+}
+.guess {
+    display: inline-flex;
+    font-size: 15px;
+    padding: 0 25px;
+    border-radius: 50%;
+    top: 50px;
+    left: 110px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+img {
+    display: flex;
+    width: 200px;
+    height: 100px;
+}
+
+html {
+    box-sizing: 'border-box'
+}
+
+body {
+    background-image: url('sherlockMagData.png');
+    background-color: rgba(256, 256, 256, 0.1);
+    background-repeat: repeat;
+    background-position: top right;
+}
+
+#input-parent {
+    width: 160px;
+    margin: 5% auto 50px;
+    position: relative;
+  }
+
+#player-input {
+    border-radius: 50%;
+    width: 260px;
+    height: 60px;
+    font-size: 20px;
+}
+
+#app {
+    width: 60%;
+    margin: 50 px auto;
+    background-color: rgba(256, 256, 256, 0.1);
+}
+
+
+
+#submit {
+    border-radius: 50%;
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    top: 50px;
+    left: 110px;
+}
+#footer {
+    width: 100%;
+    border-top: solid 2px red;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
