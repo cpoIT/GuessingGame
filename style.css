@@ -1,7 +1,7 @@
 
 .center {
   text-align: center;
-  color: black;
+  color: white;
 }
 .guess {
     display: inline-flex;
@@ -26,10 +26,10 @@ html {
 }
 
 body {
-    background-image: url('sherlockMagData.png');
+    background-image: url('GuessingGameTypewriter.jpeg');
+    background-size: 100%;
     background-color: rgba(256, 256, 256, 0.1);
-    background-repeat: repeat;
-    background-position: top right;
+    background-repeat: no-repeat;
 }
 
 #input-parent {
@@ -38,33 +38,49 @@ body {
     position: relative;
   }
 
-#player-input {
+#player-input {  /* Input Data */
     border-radius: 50%;
-    width: 260px;
-    height: 60px;
+    background-color: rgb(256, 197, 148);
+    border: 50px double grey;
+    width: 100px;
+    height: 100px;
     font-size: 20px;
+    border-style: groove;
+    border-width: thick;
 }
 
 #app {
-    width: 60%;
-    margin: 50 px auto;
-    background-color: rgba(256, 256, 256, 0.1);
+    width: 100%;
+    margin: 0 px auto;
+    background-color: rgba(256, 256, 256, 0.01);
 }
 
-
-
-#submit {
+#submit {  /* Deduce Button */
     border-radius: 50%;
-    width: 160px;
-    height: 40px;
+    background-color: grey;
+    border: 1px double black;
+    border-width: thick;
+    width: 90px;
+    height: 100px;
     position: absolute;
     top: 50px;
     left: 110px;
 }
 #footer {
     width: 100%;
-    border-top: solid 2px red;
+    border-top: solid 2px black;
     background-color: white;
     position: fixed;
     bottom: 0;
+}
+
+#hint { /* elementary*/
+    background-color: rgb(256, 197, 148);
+    border-style: groove;
+    border: grey;
+}
+
+#reset {
+    background-color: rgb(256, 197, 148);
+    border: grey;
 }
